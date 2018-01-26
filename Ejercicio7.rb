@@ -96,6 +96,7 @@ while opc != 7
     espera
   when 4
     verstock(inventario)
+    puts "total: #{inventario.values.sum}"
     espera
   when 5
     mayor = mayorstock(inventario)
